@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <meta charset='utf-8'/>
+	   <title><%= title %></title>
+	</head>
+    <body>
+	    恭喜您注册成功<a href='/'>登录</a>(5s后自动跳转到登录页)
+	</body>	
+	<script>
+	    setTimeout(function(){
+		    location.href='/';
+		},5000);
+	</script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+	<meta charset='utf-8'/>
+    <link rel='stylesheet' href='/css/style.css' />
+	<style>
+	   #bj{background:url(/img/bg2.jpg) no-repeat;}
+	   #bj{background-size:100% 100%;}
+	   //.login-bottom{background:#6c6462;}
+	   .login-form div:nth-child(3){cursor:pointer;}
+	</style>
+	
+  </head>
+  <body>
+       <div id='bj'>
+		     <div id='login'>
+			      <div class='login-top'>
+				       用户注册
+				  </div>
+				  <div class='login-bottom'>
+				      <form class='login-form'>
+				          <div><img src='/img/man.png'/><input type='text' placeholder='请输入用户名' name='uname' class='uname'/><a></a></div>
+				          <div><img src='/img/key.png'/><input type='password'placeholder='请输入密码' name='pwd' class='pwd'/><a></a></div>
+						  <div>登陆</div>
+						  <input type='button' value='注册' />
+				      </form>
+				  </div>
+			 </div>
+		</div>
+  <script src='/js/jquery.min.js'></script>
+  <script src='/js/reg.js'></script>
+  </body>
+</html>

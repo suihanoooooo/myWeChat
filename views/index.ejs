@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+	
+	
+  </head>
+  <body>
+
+       <div id='bj'>
+       <p>本站访问次数: <%= times %></p>
+		     <div id='login'>
+			      <div class='login-top'>
+				       用户登录
+				  </div>
+				  <div class='login-bottom'>
+				      <form class='login-form'>
+				          <div><img src='/img/man.png'/><input type='text' placeholder='请输入用户名' name='uname' class='uname'/><a></a></div>
+				          <div><img src='/img/key.png'/><input type='password'placeholder='请输入密码' name='pwd' class='pwd'/><a></a></div>
+						  <div>注册</div>
+						  <input type='button' value='登陆' />
+				      </form>
+				  </div>
+			 </div>
+		</div>
+  <script src='/js/jquery.min.js'></script>
+  <script src='/js/index.js'></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+body{
+	padding:0;
+	font-family:'微软雅黑';
+	background:url(/img/chatbg5.jpg) no-repeat 0 0;
+	background-size:100% 100%;
+}
+.chat{
+	width:849px;
+	height:395px;
+	margin-left:200px;
+	//border:1px solid #ddd;
+}
+.list,.content{float:left;position:relative;}
+.list-left{
+	width:50px;
+	height:595px;
+	background:#3e3e40;
+	float:left;
+}
+.list-right{
+	width:250px;
+	height:595px;
+	overflow:auto;
+	border-right:1px solid #ddd;
+	float:left;
+	background:#f9f9f9;
+}
+.users{
+	width:250px;
+	height:65px;
+	background:#eaeaea;
+	text-align:center;
+	line-height:65px;
+	cursor:pointer;
+	border-bottom:1px solid #ddd;
+	position:relative;
+}
+.users div{
+	position:absolute;
+	top:0;
+	right:0;
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	background:#ff3b30;
+	color:#fff;
+	line-height:20px;
+	display:none;
+	//opacity:0;
+}
+.curr{
+	background:#5cb85c;
+}
+.content-top{
+	height:444px;
+	width:548px;
+	border-bottom:30px solid #ddd;
+	background:#f5f5f5;
+	overflow-y:auto;
+	overflow-x:hidden; 
+}
+.content-bottom{
+	height:120px;
+	//width:545px;
+	outline:none;
+	background:#f9f9f9;
+}
+.btn{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	height:30px;
+	width:70px;
+	background:#3dce3d;
+	text-align:center;
+	line-height:30px;
+	border-radius:5px;
+	cursor:pointer;
+	color:#fff;
+}
+.title{
+	width:548px;
+	height:50px;
+	background:#ddd;
+	line-height:50px;
+	text-align:center;
+}
+.msg{
+	//margin-left:8px;
+	//margin-top:5px;
+}
